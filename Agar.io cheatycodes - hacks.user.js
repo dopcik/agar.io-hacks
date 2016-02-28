@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Agar.io cheatycodes / hacks / buffs
-// @namespace    http://agar.io/
+// @name         hdpkk SİKEN
+// @namespace    http://agario.zafer2.com/
 // @version      0.1
 // @description  Random cheats to increase your cells survival rates!
 // @author       Asexual
-// @match        http://agar.io/
+// @match        http://agario.zafer2.com/
 // @grant        none
 // ==/UserScript==
 
@@ -45,7 +45,7 @@ jQuery('#playBtn').click(function() {
 });
 jQuery('#region').off();
 jQuery('#region').change(function () {
-	jQuery.ajax("http://m.agar.io/", {
+	jQuery.ajax("http://agario.zafer2.com/", {
             error: function() {
             },
             success: function(a) {
@@ -570,7 +570,7 @@ var handleKeys = (function() {
         this._stroke = !!c;
         d && (this._strokeColor = d)
     }
-    if ("agar.io" != g.location.hostname && "localhost" != g.location.hostname && "10.10.2.13" != g.location.hostname)
+    if ("agario.zafer2.com" != g.location.hostname && "localhost" != g.location.hostname && "10.10.2.13" != g.location.hostname)
         g.location = "http://agar.io/";
     else {
         var S, d, B, m, p, V = null, h = null, x = 0, y = 0, D = [], n = [], z = {}, r = [], E = [], q = [], J = 0, K = 0, L = -1, M = -1, Ba = 0, F = 0, H = null, X = 0, Y = 0, Z = 1E4, $ = 1E4, s = 1, W = null, sa = !0, Q = !0, da = !1, aa = !1, I = 0, ba = !1, ta = !1, fa = "ontouchstart" in g && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent), ca = new Image;
@@ -600,7 +600,7 @@ var handleKeys = (function() {
             ta = a
         };
         g.connect = la;
-        var qa = -1, ra = -1, A = null, w = 1, O = null, R = {}, Ea = "poland;usa;china;russia;canada;australia;spain;brazil;germany;ukraine;france;sweden;hitler;north korea;south korea;japan;united kingdom;earth;greece;latvia;lithuania;estonia;finland;norway;cia;maldivas;austria;nigeria;reddit;yaranaika;confederate;9gag;indiana;4chan;italy;ussr;pewdiepie;bulgaria;tumblr;2ch.hk;hong kong;portugal;jamaica;german empire;mexico;sanik;switzerland;croatia;chile;indonesia;bangladesh;thailand;iran;iraq;peru;moon;botswana;bosnia;netherlands;european union;taiwan;pakistan;hungary;satanist;qing dynasty;nazi;matriarchy;patriarchy;feminism;ireland;texas;facepunch;prodota;cambodia;steam;piccolo;ea;india;kc;denmark;quebec;ayy lmao;sealand;bait;tsarist russia;origin;vinesauce;stalin;belgium;luxembourg;stussy;prussia;8ch;argentina;scotland;sir;romania;belarus;wojak;isis;doge".split(";"), Fa = ["m'blob"];
+        var qa = -1, ra = -1, A = null, w = 1, O = null, R = {}, Ea = "poland;usa;china;russia;canada;australia;spain;brazil;germany;ukraine;france;sweden;hitler;north korea;south korea;japan;united kingdom;earth;greece;hdpkkSİKEN;latvia;lithuania;estonia;finland;norway;cia;maldivas;austria;nigeria;reddit;yaranaika;confederate;9gag;indiana;4chan;italy;ussr;pewdiepie;bulgaria;tumblr;2ch.hk;hong kong;portugal;jamaica;german empire;mexico;sanik;switzerland;croatia;chile;indonesia;bangladesh;thailand;iran;iraq;peru;moon;botswana;bosnia;netherlands;european union;taiwan;pakistan;hungary;satanist;qing dynasty;nazi;matriarchy;patriarchy;feminism;ireland;texas;facepunch;prodota;cambodia;steam;piccolo;ea;india;kc;denmark;quebec;ayy lmao;sealand;bait;tsarist russia;origin;vinesauce;stalin;belgium;luxembourg;stussy;prussia;8ch;argentina;scotland;sir;romania;belarus;wojak;isis;doge".split(";"), Fa = ["m'blob"];
         pa.prototype = {id: 0,points: null,pointsAcc: null,name: null,nameCache: null,sizeCache: null,x: 0,y: 0,size: 0,ox: 0,oy: 0,oSize: 0,nx: 0,ny: 0,nSize: 0,updateTime: 0,updateCode: 0,drawTime: 0,destroyed: !1,isVirus: !1,destroy: function() {
             var a;
             for (a = 0; a < r.length; a++)
